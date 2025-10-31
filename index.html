@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geebee Blog</title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Geebee Blog</h1>
+      <p class="tagline">Tech, Lifestyle & More — Curated by Geebee</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Posts Section -->
+    <section id="posts" class="posts-section">
+      <h2>Latest Posts</h2>
+      <div id="post-list" class="post-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Geebee Blog. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="posts.js"></script>
+  <script src="public/js/main.js"></script>
+  <script>
+    // Auto-update footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
