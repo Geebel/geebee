@@ -24,7 +24,7 @@ const posts = [
       <p><strong>TikTok</strong> is one of the most popular social platforms where users can create, watch, and share short, entertaining videos.</p>
       <p>From dance challenges to lifestyle hacks, it’s the perfect place to express your creativity and connect with others.</p>
       <p>Click below to download TikTok and start your journey today!</p>
-      <a href="https://tiktok.pxf.io/Vx1ADk" target="_blank" class="download-btn">🎵 Download TikTok</a>
+      <a href="https://tiktok.pxf.io/c/5922040/3363059/27618" target="_blank" class="download-btn">🎵 Download TikTok</a>
     `
   }
 ];
